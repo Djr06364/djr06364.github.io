@@ -158,7 +158,7 @@ section{
 	color:white;
 }
 .curtainContainer {width: 100%; height: 100%; position: relative;}
-.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .curtain {width: 100%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
 img {
