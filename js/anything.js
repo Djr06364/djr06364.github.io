@@ -196,23 +196,11 @@ for (var i=0;i<beerArray.length;i++) {
 
 
 
-if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 767) { // only init skrollr on non-mobile devices
-    skrollr.init();
-}
-$(window).on('resize', function () {
-    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { // no reason to destroy on mobile
-        if ($(window).width() <= 767) {
-          skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-        }
-    }
 
-});
 
   $(window).on('resize', function () {
     if ($(window).width() <= 700) {
       skrollr.init().destroy();
- 
-
        // skrollr.init() returns the singleton created above
        $("#abouth").remove();
        $("#about").remove();
