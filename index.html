@@ -1,89 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>My site</title>
+		<title>Pine Box Bar</title>
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		 <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<meta name="description" content="">
+	       <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-flud">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Awesome</a>
-				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-				        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+<nav id="navbarid" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a id="logonav" class="navbar-brand" href="#splash">The Pine Box</a>
+<!--       <a id="logonav" class="navbar-brand" href="#splash">The Pine Box</a>
+ -->    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <!--  <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a id="aboutnav" href="#about">About</a></li>
+        <li><a id="beernav" href="#beerList">Tap List</a></li>
+        <li><a id="beerquiz" href="#notSure">Beer Quiz</a></li>
+        <li><a id="contactnav" href="#contact">Contact</a></li>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-					</ul>
+<section id="splash">
+	<h3 id="splashmobiletext"></h3>
+	<h6 id="aboutsplashtext"></h6>
+	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#splash">
+	<div class="hsContainer">
+		<div class="hsContent" data-center="opacity: .9" data-106-top="opacity: 0" data-anchor-target="#splash h1">
+		<h1>Welcome to the Pine Box</h1>
+	</div>
+</div>
+
+	</div>
+		
+</section>
+	<section id="about" >
+		<div class="bcg" data-0="background-color:rgb(260,260,260);" data-top="background-color:(0,0,0);"  data-anchor-target="#about">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+			    			<h2 id="abouth" data-center="opacity: 1" data--50-bottom="opacity: 0" data-506-top="opacity: 1" data-30-top="opacity: 0" data-anchor-target="#about h2">The Pine Box: Pouring Great Beer Since March 2012</h2>
+				    		<p data-center="opacity: 1" data--100-bottom="opacity: 0" data-206-top="opacity: 1" data-30-top="opacity: 0" data-anchor-target="#about h2">We are proud to be a part of our Capitol Hill community and Seattle's history.  Built in 1923 this colonial style building of vaulted ceilings and leaded glass windows was once the new expansion of E.R Butterworths and Sons Family Funeral Business.  The main interior serves as their chapel, seating over 350 mourners, and included a pipe organ (above the kitchen) and a choir loft (above the main entrance).  The bar itself and many of the tables are built from reclaimed oak coffin cabinents once housed downstairs where the "processing" took place.  The ceramic block marked "33" located between our draft screens was part of the original urn storage.  As noted by local historian Clarence Bagely in 1929, this was the "first business to offer comprehensive death-related services from corpse retreival to coffin slaes." On July 31, 1971 Butterworth and family provided these services to the family and loved once of Bruce Lee. Among his pallbearers were Steve Mcqueen, James Coburn, Chuck Norris and Lee's brother Robert.Cheers to those still here and those who were. </p>
+				    		<p class="bold">Craft Beer to the End.</p>
+			    		</div>
+		        	</div>
+		    	</div>
+	
+	</section>
+	<section id="beerList">
+				<div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#beerList">
+				<div class="curtainContainer">
+		
+					<div class="curtain" data-bottom-top="opacity: 0" data-106-top="height: 1%; opacity: 0; top: -10%;" data-center="height: 100%; opacity: 0.5; top: 0%;" data-anchor-target="#beerList"></div>
+					<div class="copy" data-bottom-top="opacity: 0" data--100-bottom="opacity: 1" data--280-bottom="opacity: 1;" data-280-top="opacity: 1;" data-106-top="opacity: 1;" data-anchor-target="#beerList .copy">
+						<h1 id="tapList">What's on tap right now?</h1>
+						<h4 id="tapList">10 Barrel Apricot Crush</h4>
+						<h4 id="tapList">5440 It's a Trap</h4>
+						<h4 id="tapList">5440 or Fight</h4>
+						<h4 id="tapList">5440 Broken Record</h4>
+						<h4 id="tapList">Manifest Destiny</h4>
+						<h4 id="tapList">Almanac Paris of the West</h4>
+						<h4 id="tapList">Boneyard Beer Skunk Ape</h4>
+						<h4 id="tapList">The Commons Boysen</h4>
+						<h4 id="tapList">The Commons Urban Farmhouse</h4>
+						<h4 id="tapList">Big Sky Ivan the Terrible</h4>
+						<h4 id="tapList">Elysian Split Shot</h4>
+						<h4 id="tapList">Firestone DBA</h4>
+						<h4 id="tapList">Knee Deep Simtra IPA</h4>
+						<h4 id="tapList">Petris Aged Pale Ale</h4>
+						<h4 id="tapList">Left Hand Nitro Wake Up Dead</h4>
+						<h4 id="tapList">Stoup Citra</h4>
+						<h4 id="tapList">Terminal Gravity Breakfast Porter</h4>
+						<h4 id="tapList">Perennial Jack Rose</h4>
+						<h4 id="tapList">Tieton Apricot Cider</h4>
+						<h4 id="tapList">2 Towns Rhubarbian Cider</h4>
+					</div>
+					
 				</div>
 			</div>
-		</nav>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-s-6 col-md-8 col-lg-10">
-						<h1>Left Column!</h1>
-						</div>
-					<div class="col-xs-12 col-s-6 col-md-4 col-lg-2">
-						<h1>Right Column!</h1>
-						<select class= "form-control">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-						</div>
-
-
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th>Name</th>
-							<th>Age</th>
-							<th>Height</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th>John</th>
-							<th>20</th>
-							<th>5 Ft</th>
-						</tr>
-					</tbody>
-					<tbody>
-						<tr>
-							<th>Jim</th>
-							<th>50</th>
-							<th>6 ft</th>
-						</tr>
-					</tbody>
-			</table>
-			<button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">My button</button>
-				<p class="bg-success">This is a success</p>
+	</section>
+	<div id="notSureMobile">
+	<section id="notSure">
 			
-		</div>
+		<div class= "bcg">
+			<p>Not sure what you want?</p>
+
+<div class="questioncontainer">
+  <span>
+	<h4>What sounds more appealing?</h4>
+</span>
+  <span>
+    <select id="appeal">
+  <option value="hops">Hops</option>
+  <option value="fruit">Fruit</option>
+  <option value="chocolate">Chocolate</option>
+</select>
+</span>
+
+	<h4>How do you want to feel after three beers?</h4>
+  <select id="afterthree">
+  <option value="buzz">Buzz</option>
+  <option value="drunk">Be Drunk</option>
+  <option value="floor">Hit the floor</option>
+</select>
+
+	<h4>Do you care where the beer is from?</h4>
+ <select id="location">
+  <option value="seattle">Seattle, obviously</option>
+  <option value="pnw">The PNW Somewhere</option>
+  <option value="idc">I don't give a shit</option>
+</select>
+<br></br>
+<br></br>
+<input id="submitbutton" type="submit" value="Beer Me">
+
+<h2 id="winningchoice"></h2>
 </div>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
 </div>
 
-	<script src="https://code.jquery.com/jquery-2.2.1.min.js" type="text/javascript"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<section id="contact">
+	<div class="bcg">
+<div id="googlemapspine">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div id="boxbox" style='overflow:hidden;height:450px;width:700px;'><div id='gmap_canvas' style='height:450px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google map							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">reedirectorysubmissionsites.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(47.6154916,-122.32767109999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6154916,-122.32767109999998)});infowindow = new google.maps.InfoWindow({content:'<strong>The Pine Box</strong><br>1600 Melrose Ave, Seattle, WA 98122<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+		</div>
+	</div>
+	</section>
+
+
+	<script type="text/javascript" src="skrollr.js"></script>
+    <script type="text/javascript">
+    	var s = skrollr.init();
+    </script>
+    <script type="text/javascript" src="jquery.scrollTo.min.js"></script>
+    <footer>
+    	<div id="address"><h3>The Pine Box Bar</h3>
+   		<h4>1600 Melrose Ave. Seattle, WA</h4>
+   		<h4>(206) 588-0375</h4></div>
+   		<div id="hours"><h3>Hours:</h3>
+			<h4>Monday through Friday 3PM to 2AM</h4>
+			<h4>Saturday and Sunday 11AM to 2AM</h4>
+		</div>
+		<div id="twitter">
+			<a href="https://twitter.com/pinebox" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @pinebox</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+    </footer>
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<script src="js/anything.js"></script>
 	</body>
-	</html>
+</html>

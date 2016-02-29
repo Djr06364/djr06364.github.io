@@ -1,0 +1,424 @@
+body{
+	height:2000px;
+}
+option{
+	color:green;
+}
+#navbarid  {
+	background-color:#4B6263;
+	border:none;
+	color:#D9CDB3;
+}
+#navbarid a{
+	color:#DDE0CF;
+	font-family: 'Karla', sans-serif;
+	font-size:15px;
+}
+#navbarid a:active { 
+    color: black;
+}
+#navbarid a:hover { 
+    color: black;
+}
+
+#navbarid #logonav{
+	font-family: 'Karla', sans-serif;
+	font-size:25px;
+}
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+#splash .bcg{
+	background:url("http://res.cloudinary.com/ratebeer/image/upload/plac_26594.jpg");
+	opacity:1;
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:1000px;
+}
+.splashmobile{
+	background:url("http://res.cloudinary.com/ratebeer/image/upload/plac_26594.jpg");
+	opacity:.8;
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*height:200px;*/
+}
+.splashmobile .bcg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 150px;
+	width: 100%;
+}
+
+/*#notSure .bcg {background:none; height: 500px; width:100%; text-align: center}
+*/
+#contact{
+	background-color:black;
+	width:100%;
+	height:500px;
+	opacity:1;
+	background-size:cover;
+}
+#googlemapspine{
+	margin-left:350px;
+}
+#gmap_canvas{
+	margin-top:30px;
+}
+#splash h3{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+section{
+	/*height:1000px;*/
+	min-width: 700px;
+}
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.hsContent {
+	width:100%;
+	background:#BCBBBF;
+	margin: -50px auto 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: orange;
+	padding: 0 8%;
+	text-align: center
+}
+#splash h1{
+	text-align:center;
+	margin-top:-170px;
+	color:black;
+	font-family: 'Indie Flower', cursive;
+	font-size:110px;
+	opacity:1;
+}
+#about h2{
+	color:white;
+	font-size:50px;
+}
+#about p{
+	color:white;
+	font-size:20px;
+	font-family: 'Indie Flower', cursive;
+}
+/*#about{
+	height:800px;
+}*/
+#about p .bold{
+	font-weight:bold;
+}
+
+#about .bcg {background:none; height: 500px; width:100%; text-align: center}
+
+#notSure .bcg {background:none; height: 500px; width:100%; text-align: center}
+
+#notsure h2{
+	color:white;
+	font-size:50px;
+	text-align:center;
+}
+#notSure p{
+	color:black;
+	font-size:45px;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+#about .hsContent{
+	background:none;
+}
+
+#beerList{
+	height:1500px;
+	background-image: url("http://flyingpigtaphouse.com/wp-content/uploads/2013/06/beer-taps-bg.jpg");
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#tapList{
+	color:white;
+}
+.curtainContainer {width: 100%; height: 100%; position: relative;}
+.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
+
+img {
+    vertical-align: middle;
+}
+#winningchoice{
+	color:rgba(44, 62, 80,1.0);
+	font-size:50px;
+}
+#submitbutton{
+	background:none;
+	font-size:30px;
+}
+.questioncontainer{
+	width:700px;
+	margin-left:350px;
+	text-align:center;
+	background:none;
+}
+select{
+	font-size:30px;
+	background:none;
+	border:none;
+	border-bottom:1px dotted rgba(44, 62, 80,1.0);
+	color:green;
+}
+footer{
+	width:100%;
+	height:200px;
+	background:black;
+	margin-top:0;
+	color:white;
+}
+footer h3{
+	margin-top:0;
+}
+footer #address{
+	width:400px;
+	float:left;
+	margin-left:300px;
+}
+footer #hours{
+	width:200px;
+	float:left;
+}
+footer #twitter{
+	float:right;
+	margin-right:300px;
+}
+/*#aboutnav{
+	margin-left:40%;
+}*/
+/*footer #facebook{
+	width:300px;
+	float:right;
+	height:100px;
+	background:white;
+}*/
+@media (max-width:700px){
+	#splash{
+		width:100%;
+	}
+	#splash #splashmobiletext{
+		float:left;
+		width:100%;
+		font-size:30px;
+		margin-top:200px;
+		margin-bottom:0px;
+		color:black;
+		background-color:rgba(149, 165, 166,0.7);
+		text-align:center;
+	}
+	#splash #aboutsplashtext{
+		float:left;
+		width:100%;
+		font-size:20px;
+		color:black;
+		background-color:rgba(149, 165, 166,0.7);
+		text-align:center;
+	}
+	.hsContainer{
+		float:left;
+		width:100%;
+	}
+	.hsContent{
+		width:100%;
+	}
+	.bcg{
+		width:100%;
+	}
+	#about{
+		width:400px;
+		opacity:1;
+	}
+	#abouth h2{
+		visibility:none;
+	}
+	#curtainContainer{
+		height:400px;
+	}
+	.copy{
+		positon-bottom:900px;
+	}
+	#notSureMobile{
+		width:400px;
+	}
+	#notSure .bcg{
+		width:400px;
+		height:700px;
+	}
+	.questioncontainer{
+		float:left;
+		width:300px;
+		margin-left:0;
+	}
+	.questioncontainer h4{
+		width:400px;
+	}
+	#contact .bcg{
+		width:400px;
+		height:300px;
+	}
+	#appeal, #afterthree, #location{
+		float:left;
+		clear:all;
+		width:400px;
+	}
+	#googlemapspine .bcg{
+		width:400px;
+		height:300px;
+	}
+	#googlemapspine{
+		float:left;
+		clear:all;
+	}
+	#boxbox{
+		width:400px;
+		float:left;
+	}
+	footer #address{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer #hours{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer #twitter{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer{
+		height:300px;
+	}
+@media (max-width:750px){
+	#splash{
+		width:100%;
+	}
+	#splash #splashmobiletext{
+		float:left;
+		width:400px;
+		font-size:40px;
+		margin-top:200px;
+		margin-bottom:0px;
+		color:black;
+		background-color:rgba(149, 165, 166,0.7);
+		text-align:center;
+	}
+	#splash #aboutsplashtext{
+		float:left;
+		width:400px;
+		font-size:20px;
+		color:black;
+		background-color:rgba(149, 165, 166,0.7);
+		text-align:center;
+	}
+	.hsContainer{
+		float:left;
+		width:400px;
+	}
+	.hsContent{
+		width:100%;
+	}
+	.bcg{
+		width:400px;
+	}
+	#about{
+		width:400px;
+		opacity:1;
+	}
+	#abouth h2{
+		visibility:none;
+	}
+	#curtainContainer{
+		height:400px;
+	}
+	.copy{
+		positon-bottom:900px;
+	}
+	#notSureMobile{
+		width:400px;
+	}
+	#notSure .bcg{
+		width:400px;
+		height:700px;
+	}
+	.questioncontainer{
+		float:left;
+		width:300px;
+		margin-left:0;
+	}
+	.questioncontainer h4{
+		width:400px;
+	}
+	#contact .bcg{
+		width:400px;
+		height:300px;
+	}
+	#appeal, #afterthree, #location{
+		float:left;
+		clear:all;
+		width:400px;
+	}
+	#googlemapspine .bcg{
+		width:400px;
+		height:300px;
+	}
+	#googlemapspine{
+		float:left;
+		clear:all;
+	}
+	#boxbox{
+		width:400px;
+		float:left;
+	}
+	footer #address{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer #hours{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer #twitter{
+		margin-left:0px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+	footer{
+		height:300px;
+	}
+}
